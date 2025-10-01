@@ -22,5 +22,6 @@ export const PostsCollection: CollectionConfig = {
         features: ({ defaultFeatures }) => [...defaultFeatures],
       }),
     },
+    { name: 'cover', type: 'upload', relationTo: 'media' },
   ],
 }

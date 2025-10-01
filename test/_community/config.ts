@@ -22,7 +22,7 @@ export default buildConfigWithDefaults({
   editor: lexicalEditor({}),
   globals: [
     // ...add more globals here
-    MenuGlobal,
+    MenuGlobal
   ],
   onInit: async (payload) => {
     await payload.create({
